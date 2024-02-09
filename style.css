@@ -1,0 +1,33 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-gray: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+
+    --ff-primary: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
