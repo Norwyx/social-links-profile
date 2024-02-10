@@ -39,9 +39,7 @@ body {
     font-family: var(--ff-primary);
     font-weight: 400;
     color: var(--white);
-    height: 100vh;
-    align-items: center;
-    text-align: center;
+    min-height: 100vh;
 }
 
 /* Specific classes */
@@ -49,7 +47,6 @@ body {
 .card {
     background-color: var(--dark-gray);
     max-width: 326px;
-    margin: 70px auto;
     padding: 1.25rem;
     border-radius: 10px;
 }
