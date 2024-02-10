@@ -11,6 +11,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-y: hidden;
 }
 
 * {
@@ -30,4 +31,69 @@ html {
 .center {
     justify-content: center;
     align-items: center;
+}
+
+body {
+    background-color: var(--off-black);
+    font-size: .875rem;
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    color: var(--white);
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+/* Specific classes */
+
+.card {
+    background-color: var(--dark-gray);
+    max-width: 326px;
+    margin: 70px auto;
+    padding: 1.25rem;
+    border-radius: 10px;
+}
+
+.image--profile-pic {
+    border-radius: 100%;
+    max-width: 90px;
+    margin-bottom: 20px;    
+}
+
+.card__username {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card__user-location {
+    color: var(--green);
+}
+
+.card__user-description {
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.card__social-link {
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: inherit;
+    margin-bottom: 16px;
+    padding: .7rem 0;
+    outline: none;
+    border: none;
+    background-color: var(--grey);
+    color: var(--white);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.card__social-link:hover {
+    background-color: var(--green);
+    color: var(--dark-gray);
+}
+
+button:last-child {
+    margin-bottom: 0;
 }
