@@ -67,6 +67,7 @@ body {
 
 .card__user-location {
     color: var(--green);
+    font-weight: 600;
 }
 
 .card__user-description {
